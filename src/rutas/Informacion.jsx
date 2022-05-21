@@ -1,11 +1,15 @@
-import React from 'react'
+import info from "../img/info.jpg"
 
 const Informacion = () => {
   return (
-    <section>
-      <img src="https://www.transportadoraestrella.com/images/main4.jpg" alt="imagen_bienvenida" />
+    <div className="max-w-3xl mx-auto bg-white bg-opacity-80 p-4 h-full">
+        <img
+          className="w-full pb-4"
+        src={info} 
+        alt="imagen_bienvenida" 
+      />
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde minus, ut odit dicta ratione nostrum molestiae consectetur sunt eligendi voluptatem corporis numquam ipsum facilis assumenda. Praesentium omnis cum commodi! Eligendi.</p>
-    </section>
+    </div>
   )
 }
 

@@ -7,14 +7,15 @@ const App = () => {
     return (
         <BrowserRouter>
             <Header />
-            <Routes>
-                <Route path="/" element={<Home/>} />
-                <Route path="/servicios" element={<Servicios/>} />
-                <Route path="/clientes" element={<Clientes/>} />
-                <Route path="/informacion" element={<Informacion/>} />
-                <Route path="/contacto" element={<Contacto/>} />
-                <Route path="/mail" element={<WebMail/>} />
-            </Routes>
+            <section className='grow bg-white shadow-sombra bg-opacity-30 px-4'>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/servicios" element={<Servicios />} />
+                    <Route path="/clientes" element={<Clientes />} />
+                    <Route path="/informacion" element={<Informacion />} />
+                    <Route path="/contacto" element={<Contacto />} />
+                </Routes>
+            </section>
             <Footer />
         </BrowserRouter>
     )
